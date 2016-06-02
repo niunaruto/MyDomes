@@ -18,6 +18,7 @@
     [super viewDidLoad];
     
     NNQrCodeView *tempV = [[NNQrCodeView alloc] initWithURLStr:@"000" contenSize:CGSizeMake(276, 276)];
+    
     tempV.frame = CGRectMake(132, 100, 276, 276);
     tempV.backgroundColor = [UIColor redColor];
     [self.view addSubview:tempV];
